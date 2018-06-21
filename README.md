@@ -2,25 +2,35 @@
 # Lespare
 [![CircleCI](https://circleci.com/gh/Lespare/lespare-backend.svg?style=svg)](https://circleci.com/gh/Lespare/lespare-backend)  [![Maintainability](https://api.codeclimate.com/v1/badges/984bad8dfe296ebd7701/maintainability)](https://codeclimate.com/github/Lespare/lespare-backend/maintainability)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+A GraphQl API that consumes Facebook's Graph API. The API is meant to enable people orgaize parties
+with the help of facebook's Events, Locations, Business and Search APi. TRhis will enable users
+to do what event planners could have done for them, only this time with the help of an awesome appplication.
+LET's PARTY!!!
 
-Things you may want to cover:
+#### Requirements
+ - Ruby version 2.3+
+ - Rails version 5+
+ - PostgreSQl
 
-* Ruby version
+## Installation
 
-* System dependencies
+```sh
+git clone https://github.com/kevinsamoei/rails-5-boilerplate.git
 
-* Configuration
+bundle install
 
-* Database creation
+rails server
+```
 
-* Database initialization
+## Running tests
+```sh
+rspec spec
+```
 
-* How to run the test suite
+## Contributing
 
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Fork it (<https://github.com/yourname/yourproject/fork>)
+2. Create your feature branch (`git checkout -b feature/fooBar`)
+3. Commit your changes (`git commit -am 'Add some fooBar'`)
+4. Push to the branch (`git push origin feature/fooBar`)
+5. Create a new Pull Request
