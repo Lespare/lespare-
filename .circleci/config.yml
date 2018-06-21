@@ -47,7 +47,8 @@ jobs:
             bundle exec rake db:migrate
           environment:
             DATABASE_URL: "postgres://lespare_backend@localhost:5432/lespare"
-
-
-      # Run the tests
-      - run: bundle exec rspec
+      - run:
+          name: Run Tests and Danger
+          command: |
+            bundle exec rspec
+            bundle exec danger --verbose
